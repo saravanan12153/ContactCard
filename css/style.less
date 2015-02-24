@@ -1,0 +1,125 @@
+// color palettes
+
+@lightblue: #44BBFF;
+@lightorange: #F6B42C;
+@lightgreen: #AAD450;
+@lightpink: #F27490;
+@navyblue: #334455;
+@grey: #DDD;
+@lightgrey: #EEE;
+
+// ************
+
+* {
+	maring: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: @lightblue;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 50px;
+}
+
+button {
+	border: none;
+	padding: 10px 25px;
+	cursor: pointer;
+	color: white;
+	margin: 10px 0px;
+	font-weight: 500;
+	background: @navyblue;
+  outline:none;
+  text-transform: uppercase;
+}
+
+button:hover {
+	background: @lightblue;
+}
+
+table {
+	width: 700px;
+	border: 1px solid black;
+	margin: 0px auto;
+	background: white;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+
+th {
+	text-align: left;
+}
+
+input {
+	padding: 5px;
+	display: block;
+	margin: 5px 0px;
+}
+
+textarea {
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	margin: 3px 0px;
+}
+
+div.container {
+	max-width: 800px;
+	min-height: 100px;
+	border-radius: 15px;
+	margin: 15px auto;
+	background: @grey;
+}
+
+div.body {
+	padding: 25px;
+}
+
+div.body h1, p {
+	text-align: center;
+}
+
+div.col-left, div.col-right {
+	display: inline-block;
+	vertical-align: top;
+	width: 372px;
+	margin-top: 15px;
+}
+
+div.col-left {
+	padding: 10px;
+	padding-left: 40px;
+	background: @lightgrey;
+}
+
+div.col-right {
+	background: @lightgrey;
+	min-height: 400px;
+}
+
+div.front, div.back {
+	background: seashell;
+	margin: 10px 15px;
+	text-align: center;
+	padding: 10px;
+	cursor: pointer;
+	min-height: 150px;
+	h4, h3, h2, h1 {
+		vertical-align: middle;
+	}
+}
+
+.hide {
+	display: none;
+}
